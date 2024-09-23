@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'open-sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color:#090a0f ;
+}
+
+nav  h1{
+    font-size: 20px;
+    color: white;
+}
+
+nav h1 span{
+    font-size: 20px;
+    color: rgb(33, 187, 33);
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+nav ul li {
+    margin-left: 20px;
+    padding-top: 5px;
+    color: white;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-weight:bold;
+    color:rgb(17, 192, 17);
+}
+
+#btn {
+    background-color: rgb(17, 192, 17);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#btn:hover {
+    font-weight:bold;
+    background-color: transparent;
+    color: rgb(17, 192, 17);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px solid green;
+}
+
+section {
+    padding: 30px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-section img {
+    height: auto;
+    width: 420px;
+}
+
+#hero-section-info h3 {
+    margin-left: 0px;
+    margin-bottom: 15px;
+    font-size: 6.1vh;
+    color: white;
+}
+
+#hero-section-info p{
+    margin-left: 0px;
+    padding-bottom: 50px;
+    color: white;
+    word-wrap: break-word;
+}
+
+#hero-section-info a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#hero-section-info {
+    padding-top: 80px;
+    padding-right: 100px;
+}
+
+#part1 {
+    display: flex;
+    justify-content:space-between;
+}
+
+#part1-info h3{
+    color: rgb(17, 192, 17);
+    padding-bottom: 50px;
+}
+
+#part1-info h1{
+    color: rgb(101, 238, 101);
+    padding-bottom: 20px;
+    font-size: 9vh
+}
+
+#part1-info p{
+    color: white;
+    padding-bottom: 50px;
+}
+
+#part1-info h2{
+    color: rgb(101, 238, 101);
+    padding-bottom: 30px;
+}
+
+#part1-info h4{
+    color: white;
+    padding-bottom: 10px;
+}
+
+ 
+
+.training{
+    float: left;
+    padding-left: 90px;
+} 
+
+.milestone{
+    float: right;
+    padding-right: 180px;
+} 
+
+#projects {
+    text-align: left;
+}
+
+.projects {
+    display: flex;
+    color: white;
+}
+
+#section {
+    color:rgb(101, 238, 101);
+
+}
+
+.My-Projects div h1{
+    font-size: 9vh;
+    color:rgb(101, 238, 101);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.My-Projects div h3 {
+    color: rgb(17, 192, 17);
+    padding-bottom: 50px;
+}
+
+
+.Project {
+    padding: 20px;
+    width: 400px;
+}
+.Project p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
